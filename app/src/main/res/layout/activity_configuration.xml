@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/background"
+        android:gravity="center_horizontal">
+
+
+        <Button
+            android:id="@+id/buttonCreateExpenseType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configurar \n Categoria de Despesas"
+            android:textColor="@color/buttonTextColor"
+            android:backgroundTint="@color/buttonColor"
+            android:layout_marginTop="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <Button
+            android:id="@+id/buttonOperationManual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MANUAL\n Como Usar o App 😊 "
+            android:textColor="@color/buttonTextColor"
+            android:backgroundTint="@color/buttonColor"
+            android:layout_marginTop="20dp" />
+
+        
+
+    </LinearLayout>
+</ScrollView>
